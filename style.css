@@ -28,6 +28,11 @@ a {
     text-decoration: none;
 }
 
+.img-intro {
+    height: 332px;
+    width: 500px;
+}
+
 .button, .calltoaction-container {
     background-color: #3882F6;
 }
