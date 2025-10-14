@@ -44,8 +44,10 @@ a {
 }
 
 .img-mid {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 18px;
+    border: solid 4px #3882F6;
 }
 
 .quote-container {
