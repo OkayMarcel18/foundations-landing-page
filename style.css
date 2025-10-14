@@ -6,9 +6,23 @@ body {
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 256px 0px 256px;
+}
+
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+}
+
+.intro-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 108px 0px 108px 0px;
+    justify-content: space-between;
 }
 
 .intro-title {
@@ -41,6 +55,11 @@ a {
     border: none;
     border-radius: 8px;
     padding: 6px 16px;
+    align-self: flex-end;
+}
+
+.text-container {
+    width: 350px;
 }
 
 .button2 {
