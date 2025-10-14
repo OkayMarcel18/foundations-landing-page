@@ -29,10 +29,35 @@ a {
 }
 
 .img-intro {
-    height: 332px;
     width: 500px;
+    height: 332px;
 }
 
 .button, .calltoaction-container {
     background-color: #3882F6;
+}
+
+.mid-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.img-mid {
+    width: 250px;
+    height: 250px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote-body, .quote-author {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-weight: 900;
 }
