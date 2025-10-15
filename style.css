@@ -96,6 +96,9 @@ a {
 
 .quote-container {
     background-color: #E5E7EB;
+    padding: 164px 524px 164px 524px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-body, .quote-author {
@@ -106,4 +109,6 @@ a {
 
 .quote-author {
     font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
 }
