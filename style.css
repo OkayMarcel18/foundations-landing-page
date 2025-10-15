@@ -20,9 +20,14 @@ body {
 
 .intro-container {
     display: flex;
-    flex-wrap: wrap;
-    padding: 108px 0px 108px 0px;
     justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    padding: 108px 0px 108px 0px;
+}
+
+.text-container {
+    width: 350px;
 }
 
 .intro-title {
@@ -50,26 +55,30 @@ a {
 .button, .button2, .calltoaction-container {
     background-color: #3882F6;
     color: #E5E7EB;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 900;
     border: none;
-    border-radius: 8px;
-    padding: 6px 16px;
-    align-self: flex-end;
-}
-
-.text-container {
-    width: 350px;
+    border-radius: 10px;
+    padding: 9px 18px;
+    flex: none;
 }
 
 .button2 {
     border: solid 2px #E5E7EB;
 }
 
+.mid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
 .mid-header {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
 }
 
 .img-mid {
@@ -77,6 +86,12 @@ a {
     height: 200px;
     border-radius: 18px;
     border: solid 4px #3882F6;
+    display: flex;
+}
+
+.mid-text {
+    width: 200px;
+    height: 200px;
 }
 
 .quote-container {
