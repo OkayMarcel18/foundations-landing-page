@@ -24,10 +24,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 24px;
 }
 
 .text-container {
-    width: 350px;
+    width: 650px;
 }
 
 .intro-title {
